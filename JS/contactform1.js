@@ -1,7 +1,4 @@
-function ContactCreate(storeName, dataEntity, co_client)
-{
-    var co_description  = $("#co_description").val();
-    var co_type         = $("#co_type").val();
+val();
 
     var jsonCO =    {
                     "client": co_client.replace("CL-",""),
