@@ -1,0 +1,352 @@
+body.home .modal2 {
+  position: fixed;
+  top: 0%;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.6);
+  width: auto;
+  display: block;
+  z-index: 1600;
+}
+body.home .modal2 in .modal-dialog{
+  max-width: 100%;
+}
+body.home-new .modal2 .modal-body {
+  height: auto;
+  position: relative;
+  padding: 0;
+  max-width: 640px;
+  /* margin: 0 auto; */
+}
+body.home .modal2 .modal-body img{
+  width: 100%!important
+}
+body.home .modal2 .modal-header{
+  position: absolute;
+  z-index: 99999;
+  border: none;
+  right: 0px;
+  padding: 0;
+}
+body.home .modal2 .modal-footer{padding: 0}
+body.home .modal2 .modal-header .close{
+  margin-top: 4px;
+  font-size: 20px;
+  width: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+body.home .modal2 .modal-header .close:hover{opacity: 0!important}
+body.home .modal2 .modal-header .close .sr-only{display: none;}
+body.home .modal2 .modal-content{
+  background: #000;
+  display: block;
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body.home .modal2 .modal-body .newsletter fieldset{display: flex;flex-wrap: wrap;}
+.modal-dialog {
+    top: 0;
+}
+#enviar {
+  margin-top: 2px;
+  text-transform: uppercase;
+  color: #505658;
+  font-size: 12px;
+  font-weight: 400;
+  border: 1px solid #000000;
+  box-shadow: 0 0 4px 1px #B9B9B9;
+  letter-spacing: 2px;
+  text-align: center;
+}
+div#news {
+    position: absolute;
+    width: 40%;
+    /* height: 50px; */
+    bottom: 20%;
+    text-align: right;
+    right: 5%;
+}
+input#nome , input#email {
+  border: 0;
+  width: 100%;
+  margin-top: 1%;
+  padding: 10px 6px 10px;
+  height: 30px;
+  border-radius: 0;
+  font-family: "Open Sans";
+  border: 1px solid #000000;
+  color: #585a59;
+  font-size: 15px;
+}
+body.home .modal2 .modal-body fieldset.error {
+  background: #d0e191;
+  height: 70px;
+  position: relative;
+  bottom: -35px;
+}
+
+body.home .modal2 .modal-body .newsletter .success{
+  padding: 10px 10px;
+  position: relative;
+  top: 10px;
+  left: 11px;
+}
+body.home .modal2 .modal-body .newsletter-button-back{
+  background: #98d3bf;
+  color: #585a59;
+  border-radius: 0;
+  border-color: #585a59;
+  position: relative;
+  bottom: -40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+body.home .modal2 .modal-body fieldset p, body.home .modal2 .modal-body .newsletter-title, body.home .modal2 .modal-body .newsletter h3 {
+  display: none
+}
+
+body.home .modal2 .modal-body fieldset input#newsletterClientEmail:focus{outline: none;}
+
+
+div#co_message_success {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: #FFF;
+}
+
+@media screen and (min-width: 767px){
+  body.home .modal2 .modal-body img.pop-desk-tab{
+    display: block!important
+  }
+  body.home .modal2 .modal-body img.pop-mobile{
+    display: none!important
+  }
+}
+@media screen and (max-width: 767px){
+  .modal-header {
+    top: 12px !important;
+}
+  input#nome, input#email {height: 0;font-size: 11px;}
+  div#news {
+      font-size: 12px;
+  }
+  body.home .modal2 .modal-body img.pop-desk-tab{
+    display: none!important
+  }
+  body.home .modal2 .modal-body img.pop-mobile{
+    display: block!important;
+  }
+  body.home .modal2 .modal-header{
+    top: 2px;
+  }
+  body.home .modal2 .modal-header .close {
+    margin-top: 5px;
+  }
+  body.home .modal2 .modal-body .newsletter{
+    /* bottom: 10%; */
+    /* height: 60px; */
+  }
+  body.home .modal2 .modal-body fieldset input#newsletterClientEmail, body.home .modal2 .modal-body fieldset input#newsletterClientName{
+    width: 80.2%;
+    margin-left: 40px;
+    height: 22px;
+    margin-top: 1%;
+    font-size: 100%;
+  }
+  body.home .modal2 .modal-body fieldset #newsletterButtonOK{
+    margin-left: 64.6%;
+    float: none;
+    /* width: 37.5%; */
+    min-height: 17px!important;
+    /* height: 24px; */
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 370px){
+    body.home .modal2 .modal-body .newsletter{
+    bottom: 11.5%;
+  }
+  body.home .modal2 .modal-body fieldset #newsletterButtonOK{
+    height: 27px;
+  }
+}
+@media screen and (min-width: 370px) and (max-width: 410px){
+    body.home .modal2 .modal-body .newsletter{
+    bottom: 12%;
+  }
+  body.home .modal2 .modal-body fieldset #newsletterButtonOK{
+    height: 27px;
+    top: 6px!important;
+    right: -12.5%;
+  }
+  body.home .modal2 .modal-body fieldset input#newsletterClientEmail{
+    /* margin-left: 3px; */
+    /* margin-top: 1.5%; */
+  }
+}
+@media screen and (min-width: 405px) and (max-width: 450px){
+  body.home .modal2 .modal-body .newsletter{
+    bottom: 13%;
+  }
+  body.home .modal2 .modal-body fieldset #newsletterButtonOK{
+    height: 35px;
+    top: 6px!important;
+    right: -12.5%;
+  }
+  body.home .modal2 .modal-body fieldset input#newsletterClientEmail{
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 495px){
+  body.home .modal2 .modal-body .newsletter{
+    bottom: 14%;
+  }
+  body.home .modal2 .modal-body fieldset #newsletterButtonOK{
+    height: 35px;
+    top: 10px!important;
+    right: -13%;
+  }
+  body.home .modal2 .modal-body fieldset input#newsletterClientEmail{
+  }
+}
+@media screen and (min-width: 495px) and (max-width: 550px){
+  body.home .modal2 .modal-body .newsletter{
+    bottom: 15%;
+  }
+  body.home .modal2 .modal-body fieldset #newsletterButtonOK{
+    height: 38px;
+    top: 12px!important;
+    right: -13%;
+  }
+  body.home .modal2 .modal-body fieldset input#newsletterClientEmail{
+    /* margin-left: 10px; */
+    /* width: 62%; */
+    /* margin-top: 1%; */
+  }
+}
+@media screen and (max-width: 600px){
+  form#formIntegration{
+    width: 40%!important;
+    bottom: 13%!important;
+    right: 3%!important;
+    height: 90px!important;
+  }
+  input#cmp2, input#cmp1, input#submit{
+    min-height: 18px!important;
+    height: 24px!important;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 610px){
+  body.home .modal2 .modal-body .newsletter{
+    bottom: 16%;
+  }
+  body.home .modal2 .modal-body fieldset #newsletterButtonOK{
+    height: 41px;
+    top: 14px!important;
+    right: -13%;
+  }
+  body.home .modal2 .modal-body fieldset input#newsletterClientEmail{
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 460px){
+
+  body.home .modal2 .modal-body .newsletter{
+    bottom: 17%;
+  }
+  body.home .modal2 .modal-body fieldset #newsletterButtonOK{
+    height: 41px;
+    top: 16px!important;
+    right: -14.5%;
+  }
+  body.home .modal2 .modal-body fieldset input#newsletterClientEmail, body.home .modal2 .modal-body fieldset input#newsletterClientName{
+  margin-left: 86px;
+  }
+
+}
+
+.modal-body > form#formIntegration {
+    position: absolute;
+    right: 1.5%;
+    bottom: 18.5%;
+    display: flex;
+    width: 43.2%;
+    height: 125px;
+    flex-wrap: wrap;
+}
+.modal-body > form#formIntegration > input#cmp2 , .modal-body > form#formIntegration > input#cmp1 {
+    width: 100%;
+    border: 1px solid #8c8a8a;
+    border-radius: 0;
+    height: 30px;
+    padding: 0px 8px;
+    background: #ffffff;
+}
+.modal-body > form#formIntegration > .cont-button-cad {
+    width: 33%;
+    margin: 0 0 0 auto;
+    height: 27px;
+    background: transparent;
+}
+
+.modal-body > form#formIntegration > .cont-button-cad > input#submit {
+    border-radius: 0;
+    background: transparent;
+    width: 100%;
+    color: #8c8a8a;
+    padding: 2px;
+    border: 1px solid #8c8a8a;
+}
+
+@media (max-width:600px){
+  .modal-body > form#formIntegration > .cont-button-cad {
+      width: 90%;
+      margin: 0 auto;
+      height: 40px;
+  } 
+  .modal-content{
+    margin-top: 18%
+  }
+}
+@media (min-width:640px) and (max-width: 767px){
+  .modal-body > form#formIntegration{
+    right: 7%!important;
+    width: 41%!important;
+  }
+}
+.modal-content {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+button.close {
+    text-shadow: none;
+    opacity: 1;
+    color: #ccc;
+    font-size: 15px;
+    margin-top: 0px !important;
+}
+
+.modal-header {
+    border: none;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    top: 45px;
+}
+
+img.pop-mobile {
+    display: none;
+}
+
+input#submit:hover {
+    background: #8c8a8a;
+    color: #FFF;
+}
